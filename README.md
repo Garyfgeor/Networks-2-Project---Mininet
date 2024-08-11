@@ -12,9 +12,6 @@ This repository contains the implementation of a series of exercises for a Netwo
    4. [Exercise 4: VLAN with OpenFlow](#exercise-4-vlan-with-openflow)
 3. [Setup and Installation](#setup-and-installation)
 4. [Running the Exercises](#running-the-exercises)
-5. [Examples and Outputs](#examples-and-outputs)
-6. [References](#references)
-7. [License](#license)
 
 ## Introduction
 
@@ -66,5 +63,59 @@ This project involves the use of the Ryu framework to develop network functional
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Garyfgeor/SDN-Project-with-Mininet-and-OpenFlow.git
+   git clone https://github.com/vasilisanagno/SDN-Project-with-Mininet-and-OpenFlow.git
    cd SDN-Project-with-Mininet-and-OpenFlow
+
+## Running the Exercises
+
+### Exercise 1
+
+1. **Create the topology:**
+   ```bash
+   sudo mn --controller remote --mac
+
+2. **Run ryu controller:**
+   ```bash
+   sudo ./arp-spoofing.py
+
+### Exercise 2
+
+1. **Create the topology:**
+   ```bash
+   chmod 777 mininet-router.py
+   sudo ./mininet-router.py
+
+2. **Run ryu controller:**
+   ```bash
+   sudo ./ryu-router-frame.py
+
+### Exercise 3
+
+1. **Create the topology:**
+   ```bash
+   chmod 777 mininet-router-two.py
+   sudo ./mininet-router-two.py
+
+2. **Run ryu controller:**
+   ```bash
+   sudo ./ryu-router-two-frame.py
+
+### Exercise 4
+
+1. **Create the topology:**
+
+   Option 1: **Standard VLAN Topology**
+      ```bash
+      chmod 777 mininet-router-vlan.py
+      sudo ./mininet-router-vlan.py
+      ```
+      
+   Option 2: **Extended VLAN Topology**
+      ```bash
+      chmod 777 mininet-router-vlan-extended.py
+      sudo ./mininet-router-vlan-extended.py
+      ```
+
+2. **Run ryu controller:**
+   ```bash
+   sudo ./vlan.py
