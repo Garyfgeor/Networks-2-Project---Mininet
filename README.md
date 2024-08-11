@@ -1,4 +1,4 @@
-# Networks-2-Project-Mininet
+# SDN-Project-with-Mininet-and-OpenFlow
 
 This repository contains the implementation of a series of exercises for a Networking course project. The project explores various networking concepts using Mininet and Ryu Controller, focusing on topics such as ARP spoofing, static routing, and VLAN configuration using OpenFlow.
 
@@ -66,5 +66,5 @@ This project involves the use of the Ryu framework to develop network functional
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Garyfgeor/Networks-2-Project-Mininet.git
-   cd Networks-2-Project-Mininet
+   git clone https://github.com/Garyfgeor/SDN-Project-with-Mininet-and-OpenFlow.git
+   cd SDN-Project-with-Mininet-and-OpenFlow
