@@ -66,5 +66,5 @@ This project involves the use of the Ryu framework to develop network functional
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/networks-2-project-mininet.git
-   cd networks-2-project-mininet
+   git clone https://github.com/Garyfgeor/Networks-2-Project-Mininet.git
+   cd Networks-2-Project-Mininet
