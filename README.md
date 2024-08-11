@@ -1,5 +1,4 @@
-# Networks-2-Project---Mininet
-# Networking Final Project
+# Networks-2-Project-Mininet
 
 This repository contains the implementation of four exercises for the Networking Final Project. The project explores various network functionalities using Mininet and Ryu Controller, focusing on ARP spoofing, static routing, and VLAN setup with OpenFlow.
 
